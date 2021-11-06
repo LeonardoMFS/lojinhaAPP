@@ -32,12 +32,12 @@ public class LojinhaApp {
 
         ProdutoNacional meuProdutoNacional = new ProdutoNacional("Sony", Tamanho.MEDIO);
         meuProdutoNacional.setImpostoNacional(0.55);
-        System.out.println(meuProdutoNacional.getImpostoNacional());
+
 
         ProdutoInternacional meuProdutoInternacional = new ProdutoInternacional("Samsung", Tamanho.PEQUENO);
         meuProdutoInternacional.setTaxaInternacional(1.7);
         meuProdutoInternacional.setValor(100);
-        System.out.println(meuProdutoInternacional.getTaxaInternacional());
+
 
 
 
